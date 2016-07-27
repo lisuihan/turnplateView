@@ -15,6 +15,7 @@
 		B2C498931CE2FB5000232260 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C498921CE2FB5000232260 /* ViewController.m */; };
 		B2C498981CE2FB5000232260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C498971CE2FB5000232260 /* Assets.xcassets */; };
 		B2C4989B1CE2FB5000232260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C498991CE2FB5000232260 /* LaunchScreen.storyboard */; };
+		FA06AE4E1D48891900411E02 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA06AE4D1D48891900411E02 /* TwoViewController.m */; };
 		FAC3A34B1D1263B100132A9E /* UILabel+labelAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC3A34A1D1263B100132A9E /* UILabel+labelAttribute.m */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 		B2C498971CE2FB5000232260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2C4989A1CE2FB5000232260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2C4989C1CE2FB5000232260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA06AE4C1D48891900411E02 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		FA06AE4D1D48891900411E02 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		FAC3A3491D1263B100132A9E /* UILabel+labelAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+labelAttribute.h"; sourceTree = "<group>"; };
 		FAC3A34A1D1263B100132A9E /* UILabel+labelAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+labelAttribute.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +81,8 @@
 				B2C4988F1CE2FB5000232260 /* AppDelegate.m */,
 				B2C498911CE2FB5000232260 /* ViewController.h */,
 				B2C498921CE2FB5000232260 /* ViewController.m */,
+				FA06AE4C1D48891900411E02 /* TwoViewController.h */,
+				FA06AE4D1D48891900411E02 /* TwoViewController.m */,
 				B2B340941CE30516002B11D3 /* TurnplateView.h */,
 				B2B340951CE30516002B11D3 /* TurnplateView.m */,
 				B2C498971CE2FB5000232260 /* Assets.xcassets */,
@@ -172,6 +177,7 @@
 				FAC3A34B1D1263B100132A9E /* UILabel+labelAttribute.m in Sources */,
 				B2C4988D1CE2FB5000232260 /* main.m in Sources */,
 				B2B3409C1CE318B3002B11D3 /* WheelButton.m in Sources */,
+				FA06AE4E1D48891900411E02 /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

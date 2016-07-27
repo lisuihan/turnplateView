@@ -7,6 +7,7 @@
 //
 
 #import "TwoViewController.h"
+#import "UILabel+labelAttribute.h"
 
 @interface TwoViewController ()
 
@@ -18,7 +19,20 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view.
+    
+    
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, [UIScreen mainScreen].bounds.size.width, 200)];
+    label.numberOfLines = 0;
+    label.text = @"准备工作做好了就可以更新了，按住键盘上的Shift+更新(为了避免不必要的麻烦，这里推荐先进入DFU模式再更新)。";
+    [label setLabelAllString:label.text withChangeStr:@"更新"];
+
+    [label setLabelAllString:label.text withChangeStr:@"更新" withChangeStrFont:14];
+
+    [label setLabelAllString:label.text withChangeFirstStr:@"做好了" withChangeSecondStr:@"键盘"];
+    [label setLabelAllString:label.text withChangeFirstStr:@"做好了" withChangeSecondStr:@"键盘" withChangeStrFont:14];
+    [self.view addSubview:label];
+    
 }
 
 - (void)didReceiveMemoryWarning {

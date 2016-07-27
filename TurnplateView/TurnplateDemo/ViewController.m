@@ -37,6 +37,10 @@
     TurnplateView *turnView = [[TurnplateView alloc] initWithFrame:CGRectMake(0, 64.0, kScreenWith, 300)];
     turnView.speed = 18;
     [self.view addSubview:turnView];
+    
+    
+    NSLog(@"%@",turnView);
+    
 }
 
 - (void)didReceiveMemoryWarning {
